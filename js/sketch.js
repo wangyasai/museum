@@ -1,5 +1,3 @@
-http://localhost/museum/index.html
-
 var data;
 var rows;
 var particles = [];
@@ -292,7 +290,7 @@ function Particle() {
       fill(50);
       noStroke();
       var s = name;
-      text(s, mouseX-width/2+10, mouseY-height/2);
+      text(1, mouseX-width/2+10, mouseY-height/2);
     
       fill(0,50);
       noStroke();
